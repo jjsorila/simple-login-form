@@ -29,10 +29,6 @@ body {
     gap: 7rem;
 }
 
-.form-container > div {
-    padding: 5%;
-}
-
 .animation-slide {
     transform: translateX(67%)
 }
@@ -51,7 +47,7 @@ body {
     border-radius: 5%;
 }
 
-.slider > button {
+.slider>button {
     width: 30%;
     height: 10%;
     font-weight: bolder;
@@ -69,14 +65,14 @@ body {
     gap: 3rem;
 }
 
-.login > button {
+.login>button {
     width: 30%;
     height: 10%;
     font-size: 1rem;
     font-weight: bolder;
 }
 
-.login > input {
+.login>input {
     font-size: 1rem;
 }
 
@@ -91,13 +87,13 @@ body {
     gap: 3rem;
 }
 
-.register > button {
+.register>button {
     width: 30%;
     height: 10%;
     font-size: 1rem;
     font-weight: bolder;
 }
 
-.register > input {
+.register>input {
     font-size: 1rem;
 }
