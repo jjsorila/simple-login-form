@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
 }
 
 .form {
@@ -46,6 +46,7 @@ body {
     transition: transform .5s ease-in-out;
     background-color: white;
     border-radius: 5%;
+    border: black 2px solid;
 }
 
 .slider>button {
@@ -61,9 +62,10 @@ body {
     align-items: center;
     justify-content: center;
     background: url('login.jpg') no-repeat fixed;
-    background-size: contain;
+    background-size: cover;
     border-radius: 20px 0 0 20px;
     gap: 3rem;
+    border: black 2px solid;
 }
 
 .login>button {
@@ -86,6 +88,7 @@ body {
     background-size: cover;
     border-radius: 0 20px 20px 0;
     gap: 3rem;
+    border: black 2px solid;
 }
 
 .register>button {
